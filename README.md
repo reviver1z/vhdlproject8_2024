@@ -44,7 +44,7 @@ end entity shiftreg4;
 Design a binary counter (entity and architecture) with an asynchronous reset input and counts with the rising edge of the clock signal (clk). The sequence of values for the counter is as follows: 0-1-2-3-4-5-10-11-12-13-14-15. After reaching 15, the counter resets to 0.
 
 **Theme 5**
-Design a combinational circuit using VHDL which accepts three inputs: two 32-bit vectors, A and B, and a 2-bit function vector, and produces an output Y, also a 32-bit vector. The circuit operates according to the following information \n
+Design a combinational circuit using VHDL which accepts three inputs: two 32-bit vectors, A and B, and a 2-bit function vector, and produces an output Y, also a 32-bit vector. The circuit operates according to the following information::::
 function:00 -> Y:A AND B, 
 function:01 -> Y:A OR B, 
 function:10 -> Y:A XOR B,
